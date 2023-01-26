@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41EFE073-CFEB-38D9-68E7-3B0425F8852E" name="NARUDZBE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>ED87C032-05F6-3CB0-C3E1-B12B6AEE234B</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>narudzba</ordsAlias>
+<abbreviation>NAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_narudzba" id="9CCA9C99-C0C7-3FDA-D15D-A8072F3DDAA6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>FD0D5FDC-3A95-41D7-262F-70C4A3EDACF3</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="6359663D-03DA-6037-514B-DE431A4FD38A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>F841C795-7E34-E09F-AC9D-EA153C098569</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme" id="8B0CC97D-2868-A71D-394B-C7F4CBFE7D55">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>89AA3A99-5B80-EC16-A440-1E8CAB503829</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUPAC_KUP_ID_kupca" id="70BB7773-D029-724D-7E7F-DE7CCEC40110">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>F3AF5505-D86C-B7D5-1917-5571AE45F9BD</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6ACD122-38D4-9770-55EB-7FE6DBEE5AB0" referredColumn="6B66D4D8-4C76-A053-E391-CFF00EE82E64"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5D4823C-98A6-50A0-A0CB-EA6341060AC3" name="NARUDZBA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>095A68BB-3A06-6A16-B1D4-FEF8B2EDF63E</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CCA9C99-C0C7-3FDA-D15D-A8072F3DDAA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F5DBD12-BFA4-D2A9-F6C5-42DA9A3E65D0" name="NARUDZBA_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>AB0CDA33-3E19-54E4-0ED8-F0BBB9494B71</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70BB7773-D029-724D-7E7F-DE7CCEC40110"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

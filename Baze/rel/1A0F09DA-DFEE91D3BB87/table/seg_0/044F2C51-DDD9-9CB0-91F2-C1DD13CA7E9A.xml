@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="044F2C51-DDD9-9CB0-91F2-C1DD13CA7E9A" name="KARTICE_VJERNOSTI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>89FD3725-F40C-C7C9-B505-0DECEDB174C6</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>kartica_vjernosti</ordsAlias>
+<abbreviation>KRT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_ID_kupca" id="6C1EA518-6DF8-1B88-0A35-226EEDBFC005">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>11996F53-649C-D626-9E8E-534EB7794ACD</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="67A94BD8-6D4F-4FC1-B186-45C144BF49DE" referredColumn="6B66D4D8-4C76-A053-E391-CFF00EE82E64"/>
+</associations>
+</Column>
+<Column name="KRT_ID_kartice" id="DCC3B0E2-8CC6-3D7E-2A06-52CA5209B274">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>235E501C-1070-A3F4-EC5B-D6E9EE3A50C8</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KRT_Popust" id="58FC10A0-3EFD-87A8-CC42-6D0992075FA4">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>F64CB7EE-C0B8-1994-78CB-65E85AF8A05D</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,2,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="407EFF5C-712A-E78F-0876-369177A173D7" name="KARTICA_VJERNOSTI_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>4C503471-D547-1CA3-D1D6-7C79FEE31DA0</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C1EA518-6DF8-1B88-0A35-226EEDBFC005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="765413F6-F87D-05E3-3662-4B231169C6CF" name="KARTICA_VJERNOSTI_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>1E5F63ED-A7A3-C4B3-4F9F-B6C3C3501D58</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCC3B0E2-8CC6-3D7E-2A06-52CA5209B274"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFDC32BC-735D-1DB8-850E-E3B705C1DB25" name="KARTICA_VJERNOSTI_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>9097B3D8-A527-205B-1F28-270B09DFBBB4</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C1EA518-6DF8-1B88-0A35-226EEDBFC005"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

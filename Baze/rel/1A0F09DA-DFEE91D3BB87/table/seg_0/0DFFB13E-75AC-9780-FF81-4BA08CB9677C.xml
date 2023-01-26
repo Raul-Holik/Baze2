@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DFFB13E-75AC-9780-FF81-4BA08CB9677C" name="GRADOVI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>D37393C2-8942-B967-0BE9-94723FFB8F19</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>grad</ordsAlias>
+<abbreviation>GRD</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Postanski_broj" id="C6EF9915-8D40-5A36-57EC-232B226FB990">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>ED41D950-D0F8-8A9B-FDF7-B2C3DCF5006F</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="B2A50BD4-C355-BC29-1863-FD0A734E2409">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>831AA6AC-85D4-1C6B-518F-448036B623E7</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9634841B-F991-669B-E7CE-27FCD065757D" name="GRAD_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>22E0815A-84BC-8F3B-734D-C2A8F9C44213</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6EF9915-8D40-5A36-57EC-232B226FB990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AB1CBA5-0407-DE9B-D228-2AB749C95237" name="ADRESE_KUPACA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>C8EEDF6C-C6EE-DB5D-1B37-27F10C4806F4</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>adresa_kupca</ordsAlias>
+<abbreviation>ADK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_adresa_kupca" id="FE0E2486-2990-A6C1-A45D-97DD1CF5EA23">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>972D4B03-EFED-F44B-1B6E-91C8494FCBCB</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_kupca" id="769DB91A-4948-8CEA-79B4-CB49A4C418E1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>B6B06F1C-9C64-820D-7052-F9BBAE0FEBCF</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ulica" id="8D32AEAD-E3C3-B006-70A4-4B8B4EC04130">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>0D14E787-E86C-B2CF-7630-B0E62DE489D3</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUPAC_KUP_ID_kupca" id="3056CD4C-357D-15F2-CE12-22A36B68AB3E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>167C4959-9E71-043D-3765-D34AE6ED736A</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE63C8E4-8004-9241-480F-5AC026C4D48B" referredColumn="6B66D4D8-4C76-A053-E391-CFF00EE82E64"/>
+</associations>
+</Column>
+<Column name="GRAD_Postanski_broj" id="1C0212AE-82A4-AA89-00F6-7DF66EEA057A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>6AFA564A-9257-02DD-00A8-E08E57B7390C</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EED8245A-D7EB-2CA0-D54D-EA3D7637C6A9" referredColumn="C6EF9915-8D40-5A36-57EC-232B226FB990"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2AC6D646-FC0B-8A40-C07D-E88094AC1F1E" name="ADRESA_KUPCA_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>7D9F83C2-F1CD-A32E-E302-79CEE0BDB1D0</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE0E2486-2990-A6C1-A45D-97DD1CF5EA23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="008623F7-E859-4A35-12E4-2232A62568A6" name="ADRESA_KUPCA_GRAD_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>0CF0BCB3-EB80-5B25-A08C-BFB72E268C0D</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C0212AE-82A4-AA89-00F6-7DF66EEA057A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C003CE2-D89A-C240-808D-6E46D6DD1CDB" name="ADRESA_KUPCA_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>734778A1-D5E2-1DCD-3154-A9CD474F55EF</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3056CD4C-357D-15F2-CE12-22A36B68AB3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

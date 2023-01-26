@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D37393C2-8942-B967-0BE9-94723FFB8F19" name="GRAD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:14:11 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>GRD</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Postanski_broj" id="ED41D950-D0F8-8A9B-FDF7-B2C3DCF5006F">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:14:34 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="831AA6AC-85D4-1C6B-518F-448036B623E7">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:14:34 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22E0815A-84BC-8F3B-734D-C2A8F9C44213" name="GRAD PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:14:44 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED41D950-D0F8-8A9B-FDF7-B2C3DCF5006F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

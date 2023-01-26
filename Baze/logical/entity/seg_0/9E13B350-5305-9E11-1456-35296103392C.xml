@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E13B350-5305-9E11-1456-35296103392C" name="TIM">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:04 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>TIM</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_tima" id="164BD601-6D77-E6F1-B9B7-B40C79FFCFE0">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:42 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv_tima" id="C9D55BD3-EA6C-3170-617D-A368E7842262">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:42 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_igraca" id="6818E016-3980-1BD0-2823-D42F44344476">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:43 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popust" id="28757056-8797-4B5C-5D27-63F99E2F237B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:22:43 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,2,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tim" id="7D44C4D4-3C86-F42A-2C70-929DF4EB76D9">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:44:12 UTC</createdTime>
+<generatorID>4BB0BCFB-905C-6A51-BA01-43A06A34DD6E</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<referedAttribute>E2F6FB22-13DD-2DCD-E9FE-059FC2E1EBA4</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3260AA42-29B0-A235-CF69-68AA720763D4" name="TIM PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:23:04 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

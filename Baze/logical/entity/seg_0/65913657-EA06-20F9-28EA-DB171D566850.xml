@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="65913657-EA06-20F9-28EA-DB171D566850" name="PRODAJNI PREDSTAVNIK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:10:21 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRP</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="email" id="053D0B54-5E8B-E2C2-3DAC-87D23F0A80EC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:05 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="86C49BC7-DB24-425D-3993-52FF197393DB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:05 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="F0552E18-E9F3-3BE0-4343-F57ABECD9268">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:06 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_telefona" id="25C292BB-EE05-894E-7D79-C5214D91ACA2">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:06 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kucni_broj" id="38CC1BF6-136D-0D6B-F925-CEFF6CE881CF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:07 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="19F2A1F6-DD41-5481-C553-A14829A5253A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:07 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postotak_provizije" id="88FE87B8-04B9-2B00-3463-7CD7B7D1E53D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:07 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,2,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email1" id="F513FF8E-350B-C7D7-88F3-278FD6C5F8BC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:53:24 UTC</createdTime>
+<generatorID>327E875F-C269-3F44-9B40-C4C5A0881417</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>053D0B54-5E8B-E2C2-3DAC-87D23F0A80EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postanski_broj" id="B45FE1EE-D0BA-C376-C780-D9F2E8CCA97D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:55:27 UTC</createdTime>
+<generatorID>96146B9A-B26E-A94C-A971-FC69D83FDA97</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<referedAttribute>ED41D950-D0F8-8A9B-FDF7-B2C3DCF5006F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF847975-B166-3F50-68D2-64DABED35B83" name="PRODAJNI PREDSTAVNIK PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:11:18 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>053D0B54-5E8B-E2C2-3DAC-87D23F0A80EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="161A26D3-9F05-CFE9-CC98-3F9BD68D86C9" name="NARUCENI_ARTIKLI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>71AA033C-43D9-09E2-9CEE-15DE514D630A</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>naruceni_artikl</ordsAlias>
+<abbreviation>NAA</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kolicina" id="16D956D9-0A8A-6CB2-B271-38752086DD5A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>E94EE73B-7EFC-3AB9-845B-AD5BB2504F1C</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,1,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NARUDZBA_ID_narudzba" id="CAF95D79-7407-E359-B589-C2BA20985709">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>A5CFC2B7-86B1-6762-3EEF-C40064130646</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E288CB28-A51E-9885-CDBE-F46ABEFDB6BC" referredColumn="9CCA9C99-C0C7-3FDA-D15D-A8072F3DDAA6"/>
+</associations>
+</Column>
+<Column name="ARTIKL_ID_artikla" id="A4BFC804-30D6-D8AE-9EA3-7DA998EB88AC">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>ADD76DD4-F648-27F2-2B46-E761ED1E0C33</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B03AB14-B9ED-D832-13D4-BB91D5662A4A" referredColumn="175C1421-74FB-13E6-94E5-983701DBA4C1"/>
+</associations>
+</Column>
+<Column name="ARTIKL_SKLADISTE_ID_skladista" id="07B67C0A-099E-C968-7556-0D992BD57000">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>B260E476-86FA-6341-E374-44A845933EAC</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B03AB14-B9ED-D832-13D4-BB91D5662A4A" referredColumn="FCB5BECB-265D-EA00-E774-3166E6ED3DEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB860C7A-589E-34DC-A288-0EDABFB4E142" name="NARUCENI_ARTIKL_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>A0DB7E23-A5DE-79DA-FCD8-C33F2C07198F</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF95D79-7407-E359-B589-C2BA20985709"/>
+<colUsage columnID="A4BFC804-30D6-D8AE-9EA3-7DA998EB88AC"/>
+<colUsage columnID="07B67C0A-099E-C968-7556-0D992BD57000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3808DF7B-25A3-89EE-976E-24F0D607FB56" name="NARUCENI_ARTIKL_NARUDZBA_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>8484866E-22AF-7C2D-4926-3DEFFA746280</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAF95D79-7407-E359-B589-C2BA20985709"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94A2EFDD-95E5-6E30-A73B-677CCCE6890D" name="NARUCENI_ARTIKL_ARTIKL_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>2AC11E94-3CAF-0139-F25B-42FD8E2BB7C7</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4BFC804-30D6-D8AE-9EA3-7DA998EB88AC"/>
+<colUsage columnID="07B67C0A-099E-C968-7556-0D992BD57000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

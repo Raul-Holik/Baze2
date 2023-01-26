@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="728FA85A-5FE1-1598-8FD8-531E9B64CC55" name="TIMOVI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>9E13B350-5305-9E11-1456-35296103392C</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>tim</ordsAlias>
+<abbreviation>TIM</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_tima" id="BE910FC2-3AF4-F95E-10A7-0BD7E8A6E850">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>164BD601-6D77-E6F1-B9B7-B40C79FFCFE0</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv_tima" id="06C34676-0B09-F7D5-4DE2-11CE57A772D6">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>C9D55BD3-EA6C-3170-617D-A368E7842262</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_igraca" id="5B026405-E5BE-5832-F9F9-D93B69209533">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>6818E016-3980-1BD0-2823-D42F44344476</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="B6016DBC-35DF-4AB8-AFB5-1FC901FDDD96">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>28757056-8797-4B5C-5D27-63F99E2F237B</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,2,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMSKI_KUPAC_TMK_Tim" id="28CC3A99-56B9-4BCF-9327-5F138DD69E4B">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>7D44C4D4-3C86-F42A-2C70-929DF4EB76D9</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42426824-5FE9-0D73-F9F3-B2937D1EB408" referredColumn="CC3EEBB6-BB31-6B38-C519-6334D4F53BDD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5BF0219-7131-20DD-5980-1CF0C185EBA2" name="TIM_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>3260AA42-29B0-A235-CF69-68AA720763D4</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE910FC2-3AF4-F95E-10A7-0BD7E8A6E850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9F6A6D5-7536-C5D9-633C-936E5FE7CD5D" name="TIM__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4BB0BCFB-905C-6A51-BA01-43A06A34DD6E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="28CC3A99-56B9-4BCF-9327-5F138DD69E4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53C15CE7-FA81-87FF-DD2E-DF78A30D88E2" name="TIM_TIMSKI_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>4BB0BCFB-905C-6A51-BA01-43A06A34DD6E</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28CC3A99-56B9-4BCF-9327-5F138DD69E4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

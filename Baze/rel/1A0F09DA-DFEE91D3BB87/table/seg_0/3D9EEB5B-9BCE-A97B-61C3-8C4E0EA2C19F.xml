@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D9EEB5B-9BCE-A97B-61C3-8C4E0EA2C19F" name="TIMSKI_KUPCI">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>5C72B758-C597-33E1-24E1-82D620E06EE6</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<ordsAlias>timski_kupac</ordsAlias>
+<abbreviation>TMK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_ID_kupca" id="8DFB3B4A-39D5-D970-5B65-33C1B27846E8">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>11996F53-649C-D626-9E8E-534EB7794ACD</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF21CDDD-03D5-B13C-6AF9-CF8AE77E7510" referredColumn="6B66D4D8-4C76-A053-E391-CFF00EE82E64"/>
+</associations>
+</Column>
+<Column name="TMK_Tim" id="CC3EEBB6-BB31-6B38-C519-6334D4F53BDD">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>E2F6FB22-13DD-2DCD-E9FE-059FC2E1EBA4</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIMOVI_ID_tima" id="E26A90BE-86C7-DBC9-9514-CB266E9271CE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:34:13 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EC61C93-2127-4C64-F39D-73F5B7F95238" referredColumn="BE910FC2-3AF4-F95E-10A7-0BD7E8A6E850"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AECD64AC-9B49-CEE6-5E5F-AF961210DA03" name="TIMSKI_KUPAC_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>4C503471-D547-1CA3-D1D6-7C79FEE31DA0</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DFB3B4A-39D5-D970-5B65-33C1B27846E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E438D09F-DE51-6F58-897E-55949424C692" name="TIMSKI_KUPAC_PKv1">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>68BAF9E2-4937-3A4C-381A-709634DC002C</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3EEBB6-BB31-6B38-C519-6334D4F53BDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A63E2113-4698-A23D-8F78-ED53D9A4F782" name="TIMSKI_KUPAC_KUPAC_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>2F5FFB06-E946-8B6F-8576-A09D58B55A76</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DFB3B4A-39D5-D970-5B65-33C1B27846E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5EF139C-04CC-AF16-C89A-F8F17ED866B3" name="TIMSKI_KUPAC_TIM_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-26 12:14:16 UTC</createdTime>
+<generatorID>4BB0BCFB-905C-6A51-BA01-43A06A34DD6E</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E26A90BE-86C7-DBC9-9514-CB266E9271CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

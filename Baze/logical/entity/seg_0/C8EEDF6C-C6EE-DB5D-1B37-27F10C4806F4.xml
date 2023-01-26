@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8EEDF6C-C6EE-DB5D-1B37-27F10C4806F4" name="ADRESA KUPCA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:17:45 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>ADK</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_adresa_kupca" id="972D4B03-EFED-F44B-1B6E-91C8494FCBCB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:02 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime_kupca" id="B6B06F1C-9C64-820D-7052-F9BBAE0FEBCF">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:03 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ulica" id="0D14E787-E86C-B2CF-7630-B0E62DE489D3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:03 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kupca" id="167C4959-9E71-043D-3765-D34AE6ED736A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:44:37 UTC</createdTime>
+<generatorID>734778A1-D5E2-1DCD-3154-A9CD474F55EF</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<referedAttribute>11996F53-649C-D626-9E8E-534EB7794ACD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Postanski_broj" id="6AFA564A-9257-02DD-00A8-E08E57B7390C">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:52:02 UTC</createdTime>
+<generatorID>0CF0BCB3-EB80-5B25-A08C-BFB72E268C0D</generatorID>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<referedAttribute>ED41D950-D0F8-8A9B-FDF7-B2C3DCF5006F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D9F83C2-F1CD-A32E-E302-79CEE0BDB1D0" name="ADRESA KUPCA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2023-01-12 12:19:21 UTC</createdTime>
+<ownerDesignName>Baze</ownerDesignName>
+<engineerTo>
+<item key="1A0F09DA-FFDA-FFA1-8A44-DFEE91D3BB87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>972D4B03-EFED-F44B-1B6E-91C8494FCBCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
